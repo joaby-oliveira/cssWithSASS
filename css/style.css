@@ -1,0 +1,13 @@
+/* line 1, ../../../Desktop/cssWithSASS/sass/colors.scss */
+p {
+  color: #eee;
+}
+
+/* line 3, ../../../Desktop/cssWithSASS/sass/style.scss */
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #222;
+}
+
+/*# sourceMappingURL=style.css.map */
