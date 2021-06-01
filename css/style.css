@@ -1,13 +1,14 @@
-/* line 1, ../../../Desktop/cssWithSASS/sass/colors.scss */
-p {
-  color: #eee;
-}
-
-/* line 3, ../../../Desktop/cssWithSASS/sass/style.scss */
+/* line 4, ../../../Desktop/cssWithSASS/sass/style.scss */
 body {
   width: 100vw;
   height: 100vh;
   background: #222;
+}
+
+/* line 10, ../../../Desktop/cssWithSASS/sass/style.scss */
+p {
+  color: tomato;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

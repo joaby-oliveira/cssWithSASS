@@ -2,13 +2,11 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../sass/style.scss",
-		"../sass/colors.scss"
+		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"@import \"colors\";\r\n\r\nbody {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: #222;\r\n}",
-		"p {\r\n    color: #eee;\r\n}"
+		"$primary-color: tomato;\r\n$font-size: 1.5rem;\r\n\r\nbody {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: #222;\r\n}\r\n\r\np {\r\n    color: $primary-color;\r\n    font-size: $font-size;\r\n}"
 	],
 	"names": [],
-	"mappings": ";ACAA,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;CACd;;;ADAD,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,IAAI;CACnB"
+	"mappings": ";AAGA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,IAAI;CACnB;;;AAED,AAAA,CAAC,CAAC;EACE,KAAK,EAVO,MAAM;EAWlB,SAAS,EAVD,MAAM;CAWjB"
 }

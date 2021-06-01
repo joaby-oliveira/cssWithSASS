@@ -1,7 +1,13 @@
-@import "colors";
+$primary-color: tomato;
+$font-size: 1.5rem;
 
 body {
     width: 100vw;
     height: 100vh;
     background: #222;
+}
+
+p {
+    color: $primary-color;
+    font-size: $font-size;
 }
