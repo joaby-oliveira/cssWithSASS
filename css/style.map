@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"$primary-color: tomato;\r\n$font-size: 1.5rem;\r\n\r\nbody {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: #222;\r\n}\r\n\r\np {\r\n    color: $primary-color;\r\n    font-size: $font-size;\r\n}"
+		"$primary-color: tomato;\r\n$font-size: 1.5rem;\r\n\r\nbody {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: #222;\r\n}\r\n\r\ndiv {\r\n    box-shadow: 0 0 30px black;\r\n    padding: 1rem;\r\n    p {\r\n        color: $primary-color;\r\n        font-size: $font-size;\r\n        font-family: monospace;\r\n    }\r\n    button {\r\n        border: none;\r\n        padding: 1rem 2rem;\r\n    }\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAGA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,IAAI;CACnB;;;AAED,AAAA,CAAC,CAAC;EACE,KAAK,EAVO,MAAM;EAWlB,SAAS,EAVD,MAAM;CAWjB"
+	"mappings": ";AAGA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,IAAI;CACnB;;;AAED,AAAA,GAAG,CAAC;EACA,UAAU,EAAE,cAAc;EAC1B,OAAO,EAAE,IAAI;CAUhB;;;AAZD,AAGI,GAHD,CAGC,CAAC,CAAC;EACE,KAAK,EAbG,MAAM;EAcd,SAAS,EAbL,MAAM;EAcV,WAAW,EAAE,SAAS;CACzB;;;AAPL,AAQI,GARD,CAQC,MAAM,CAAC;EACH,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,SAAS;CACrB"
 }

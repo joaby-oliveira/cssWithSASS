@@ -7,7 +7,16 @@ body {
     background: #222;
 }
 
-p {
-    color: $primary-color;
-    font-size: $font-size;
+div {
+    box-shadow: 0 0 30px black;
+    padding: 1rem;
+    p {
+        color: $primary-color;
+        font-size: $font-size;
+        font-family: monospace;
+    }
+    button {
+        border: none;
+        padding: 1rem 2rem;
+    }
 }
