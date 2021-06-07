@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"$primary-color: tomato;\r\n$font-size: 1.5rem;\r\n\r\nbody {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: #222;\r\n}\r\n\r\ndiv {\r\n    padding: 1rem;\r\n    button {\r\n        width: 400px - 20;\r\n        font-size: 2em + 1;\r\n        border: none;\r\n        padding: 1rem 2rem;\r\n    }\r\n}"
+		"$primary-color: tomato;\r\n$theme: dark;\r\n$font-size: 1.5rem;\r\n\r\n@if $theme == dark {\r\n    $primary-color: #fff;\r\n} @else if $theme = light {\r\n    $primary-color: #222;\r\n}\r\n\r\nbody {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: greenyellow;\r\n}\r\n\r\ndiv {\r\n    p {\r\n        color: $primary-color;\r\n    }\r\n    padding: 1rem;\r\n    button {\r\n        width: 400px - 20;\r\n        font-size: 2em + 1;\r\n        border: none;\r\n        padding: 1rem 2rem;\r\n    }\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAGA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,IAAI;CACnB;;;AAED,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,IAAI;CAOhB;;;AARD,AAEI,GAFD,CAEC,MAAM,CAAC;EACH,KAAK,EAAE,KAAU;EACjB,SAAS,EAAE,GAAO;EAClB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,SAAS;CACrB"
+	"mappings": ";AAUA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,WAAW;CAC1B;;;AAED,AAAA,GAAG,CAAC;EAIA,OAAO,EAAE,IAAI;CAOhB;;;AAXD,AACI,GADD,CACC,CAAC,CAAC;EACE,KAAK,EAbO,IAAI;CAcnB;;;AAHL,AAKI,GALD,CAKC,MAAM,CAAC;EACH,KAAK,EAAE,KAAU;EACjB,SAAS,EAAE,GAAO;EAClB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,SAAS;CACrB"
 }

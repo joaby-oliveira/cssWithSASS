@@ -1,16 +1,21 @@
-/* line 4, ../../../Desktop/cssWithSASS/sass/style.scss */
+/* line 11, ../../../Desktop/cssWithSASS/sass/style.scss */
 body {
   width: 100vw;
   height: 100vh;
-  background: #222;
+  background: greenyellow;
 }
 
-/* line 10, ../../../Desktop/cssWithSASS/sass/style.scss */
+/* line 17, ../../../Desktop/cssWithSASS/sass/style.scss */
 div {
   padding: 1rem;
 }
 
-/* line 12, ../../../Desktop/cssWithSASS/sass/style.scss */
+/* line 18, ../../../Desktop/cssWithSASS/sass/style.scss */
+div p {
+  color: #fff;
+}
+
+/* line 22, ../../../Desktop/cssWithSASS/sass/style.scss */
 div button {
   width: 380px;
   font-size: 3em;

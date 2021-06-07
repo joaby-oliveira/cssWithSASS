@@ -1,13 +1,23 @@
 $primary-color: tomato;
+$theme: dark;
 $font-size: 1.5rem;
+
+@if $theme == dark {
+    $primary-color: #fff;
+} @else if $theme = light {
+    $primary-color: #222;
+}
 
 body {
     width: 100vw;
     height: 100vh;
-    background: #222;
+    background: greenyellow;
 }
 
 div {
+    p {
+        color: $primary-color;
+    }
     padding: 1rem;
     button {
         width: 400px - 20;
